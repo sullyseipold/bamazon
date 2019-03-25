@@ -48,7 +48,6 @@ function customerOrder() {
             ]).then(function (selection) {
 
                 productToPurchase = selection.purchase;
-                console.log('you have purchased: ', productToPurchase);
                 selectQuantity();
 
             });
@@ -108,7 +107,6 @@ function validatePurchase() {
 function updateProduct(product, quantity) {
 
     var inStock = product.stock_quantity - quantity;
-
     var cost = product.price * quantity;
 
     connection.query("UPDATE products SET ? WHERE ?",

@@ -104,7 +104,6 @@ function addInventory() {
             ]).then(function (selection) {
 
                 selectedProduct = selection.inventory;
-                console.log('product selected: ', selectedProduct);
                 selectQuantity();
 
             });
@@ -175,7 +174,7 @@ function addProduct() {
             name: "price",
             message: `Enter the product price`,
             validate: function (value) {
-                var reg = /^\$?(([1-9]\d{0,2}(,\d{3})*)|0)?\.\d{1,2}$/;
+                var reg = /^\$?(([1-9]\d{0,2}(\d{3})*)|0)?\.\d{1,2}$/;
                 return reg.test(value) || "Enter valid price!!!";
             }
         }, {

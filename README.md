@@ -21,11 +21,11 @@ The `bamazonCustomer.js` application requires that there be a mySql database nam
 
 
 click the link below to see a video demonstrating `bamazonCustomer.js` functionality
- < >
+ <https://drive.google.com/file/d/1hlLuKdBRk5OphcVy_kMivLu5fNc_PDoL/view >
 
 #bamazonManager.js
 
-The `bamazonCustomer.js` application requires that there be a mySql database named 'bamazon' containing a table named `products` hosted locally to where the application is running.  The application does the follwing:
+The `bamazonManager.js` application requires that there be a mySql database named 'bamazon' containing a table named `products` hosted locally to where the application is running.  The application does the follwing:
 
   * List a set of menu options:
 
@@ -46,4 +46,4 @@ The `bamazonCustomer.js` application requires that there be a mySql database nam
   * If a user selects `Add New Product`, it allows the user to add a completely new product to the store.
 
   click the link below to see a video demonstrating `bamazonManager.js` functionality
- < >
+ <https://drive.google.com/file/d/1yTt2kV5u6zXUirVIIcmVs0mY7qAZKh4z/view>
